@@ -70,6 +70,8 @@ education:
     date_end: 2020-12-31
     summary: |
       GPA: 4.0/4.0
+
+      Thesis on the Gathering of Mobile Robots in the Presence of Faults. Supervised by [Prof Paola Flocchini](https://www.site.uottawa.ca/~flocchin/).
       
       Courses included:
       - Artificial Intelligence
@@ -136,7 +138,7 @@ skills:
     items:
       - name: Hiking
         description: ''
-        percent: 60
+        percent: 100
         icon: person-simple-walk
       - name: Soccer
         description: ''
@@ -144,7 +146,7 @@ skills:
         icon: cat
       - name: Photography
         description: ''
-        percent: 80
+        percent: 100
         icon: camera
 
 languages:
@@ -187,4 +189,8 @@ languages:
 
 ## About Me
 
-Diligent Machine Learning Engineer with strong leadership skills and a history of successful collaboration in teams. Experienced in software development within an agile environment. Proficient in developing and maintaining successful business products. Deep knowledge of Machine Learning and Full-Stack software development. I am passionate about applying Machine Learning to meaningful real-world problems and motivated by the opportunity to collaborate with diverse teams.
+Diligent Machine Learning Engineer with strong leadership skills and a history of successful collaboration in teams. 
+
+Proficient in developing and maintaining successful business products. Deep knowledge of Machine Learning and Full-Stack software development.
+
+I am passionate about applying Machine Learning to meaningful real-world problems and motivated by the opportunity to collaborate with diverse teams.
