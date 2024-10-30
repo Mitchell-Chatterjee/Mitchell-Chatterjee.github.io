@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Mr.
+title: Mitchell Chatterjee
 
 # Name pronunciation (optional)
 name_pronunciation: ''
@@ -104,17 +104,31 @@ work:
 skills:
   - name: Technical Skills
     items:
-      - name: Python
+      - name: Python / C#
         description: ''
-        percent: 80
+        percent: 100
         icon: code-bracket
-      - name: Data Science
+      - name: Docker / Kubernetes
         description: ''
         percent: 100
         icon: chart-bar
-      - name: SQL
+      - name: REST APIs
         description: ''
-        percent: 40
+        percent: 100
+        icon: circle-stack
+  - name: Machine Learning
+    items:
+      - name: PyTorch / Numpy / Pandas
+        description: ''
+        percent: 100
+        icon: code-bracket
+      - name: Natural Language Processing
+        description: ''
+        percent: 100
+        icon: chart-bar
+      - name: High Performance Computing
+        description: ''
+        percent: 100
         icon: circle-stack
   - name: Hobbies
     color: '#eeac02'
@@ -124,7 +138,7 @@ skills:
         description: ''
         percent: 60
         icon: person-simple-walk
-      - name: Cats
+      - name: Soccer
         description: ''
         percent: 100
         icon: cat
