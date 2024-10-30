@@ -41,7 +41,7 @@ sections:
 
         My experience pertains to applying a range of Deep Learning methods including, Transformers, CNNs and RNNs to novel problems inlcuding ECG data.
         
-        Please reach out to collaborate 😃
+        Please reach out with work or collaboration opportunities 😃
     design:
       columns: '1'
   - block: collection

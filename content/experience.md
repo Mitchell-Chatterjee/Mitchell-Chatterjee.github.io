@@ -17,7 +17,7 @@ sections:
       # Hugo date format
       date_format: 'January 2006'
       # Education or Experience section first?
-      is_education_first: false
+      is_education_first: true
   - block: resume-skills
     content:
       title: Skills & Hobbies
@@ -32,4 +32,6 @@ sections:
     content:
       title: Languages
       username: admin
+    design:
+      show_skill_percentage: true
 ---

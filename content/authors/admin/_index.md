@@ -104,50 +104,66 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
-    items:
-      - name: Python / C#
-        description: ''
-        percent: 100
-        icon: code-bracket
-      - name: Docker / Kubernetes
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: REST APIs
-        description: ''
-        percent: 100
-        icon: circle-stack
   - name: Machine Learning
     items:
-      - name: PyTorch / Numpy / Pandas
+      - name: Transformers
         description: ''
         percent: 100
-        icon: code-bracket
       - name: Natural Language Processing
         description: ''
         percent: 100
-        icon: chart-bar
+      - name: Time-Series / Health Data
+        description: ''
+        percent: 100
+      - name: Self-Supervised Learning
+        description: ''
+        percent: 100
+      - name: Parameter Efficient Fine-tuning
+        description: ''
+        percent: 100
       - name: High Performance Computing
         description: ''
         percent: 100
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
+  - name: Programming Languages
     items:
-      - name: Hiking
+      - name: Python
         description: ''
         percent: 100
-        icon: person-simple-walk
-      - name: Soccer
+      - name: C#
         description: ''
         percent: 100
-        icon: cat
-      - name: Photography
+      - name: Javascript
         description: ''
         percent: 100
-        icon: camera
+      - name: SQL
+        description: ''
+        percent: 100
+      - name: Java
+        description: ''
+        percent: 100
+      - name: C / C++
+        description: ''
+        percent: 100
+  - name: Software Skills / Other
+    items:
+      - name: PyTorch / NumPy / Pandas
+        description: ''
+        percent: 100
+      - name: Docker / Kubernetes
+        description: ''
+        percent: 100
+      - name: REST APIs
+        description: ''
+        percent: 100
+      - name: Cloud Computing
+        description: ''
+        percent: 100
+      - name: AngularJS
+        description: ''
+        percent: 100
+      - name: Azure / Github
+        description: ''
+        percent: 100
 
 languages:
   - name: English
