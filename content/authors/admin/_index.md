@@ -55,7 +55,7 @@ education:
     summary: |
       GPA: 4.0/4.0
 
-      Thesis on Cardiovascular Disease Detection using Self-Supervised Learning. Supervised by [Prof Majid Komeili](https://carleton.ca/scs/people/majid-komeili/) and [Prof Adrian Chan](https://carleton.ca/sce/people/chan/).
+      Thesis on Cardiovascular Disease Detection using Self-Supervised Learning. Supervised by Dr. Majid Komeili and Dr. Adrian Chan.
 
       Courses included:
       - Advanced Machine Learning
@@ -71,7 +71,7 @@ education:
     summary: |
       GPA: 4.0/4.0
 
-      Thesis on the Gathering of Mobile Robots in the Presence of Faults. Supervised by [Prof Paola Flocchini](https://www.site.uottawa.ca/~flocchin/).
+      Thesis on the Gathering of Mobile Robots in the Presence of Faults. Supervised by Dr. Paola Flocchini.
       
       Courses included:
       - Artificial Intelligence

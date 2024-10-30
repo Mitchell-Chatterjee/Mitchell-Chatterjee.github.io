@@ -4,9 +4,6 @@ title: ""
 date: 2022-10-24
 type: landing
 
-design:
-  # Default section spacing
-  spacing: "6rem"
 
 sections:
   - block: resume-biography-3
@@ -44,17 +41,17 @@ sections:
         Please reach out with work or collaboration opportunities 😃
     design:
       columns: '1'
-  - block: collection
-    id: skills
-    content:
-      title: Technical Strengths
-      filters:
-        folders:
-          - authors
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 3
+  # - block: collection
+  #   id: resume-skills
+  #   content:
+  #     title: Technical Strengths
+  #     filters:
+  #       folders:
+  #         - authors
+  #       featured_only: false
+  #   design:
+  #     view: article-grid
+  #     columns: 3
   - block: collection
     id: papers
     content:
