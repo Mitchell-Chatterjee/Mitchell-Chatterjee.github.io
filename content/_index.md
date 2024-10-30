@@ -32,7 +32,7 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📚 My Work'
+      title: '📚 Background'
       subtitle: ''
       text: |-
         I am currently a Master's Student at Carleton University applying recent advancements in Natural Language Processing to Medical data.
@@ -44,6 +44,17 @@ sections:
         Please reach out with work or collaboration opportunities 😃
     design:
       columns: '1'
+  - block: collection
+    id: skills
+    content:
+      title: Technical Strengths
+      filters:
+        folders:
+          - authors
+        featured_only: true
+    design:
+      view: article-grid
+      columns: 3
   - block: collection
     id: papers
     content:
