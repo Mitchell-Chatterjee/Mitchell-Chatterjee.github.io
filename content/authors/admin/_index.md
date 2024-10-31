@@ -69,7 +69,7 @@ education:
     date_start: 2016-09-01
     date_end: 2020-12-31
     summary: |
-      GPA: 4.0/4.0
+      GPA: 4.0/4.0 (Graduated Summa Cum Laude)
 
       Thesis: Gathering of Mobile Robots in the Presence of Faults. Supervised by Dr. Paola Flocchini.
       
@@ -86,9 +86,9 @@ work:
     date_end: 2022-09-01
     summary: |2-
       Responsibilities include:
-      - Designed and proposed a robust software architecture catering to the specific requirements of a key customer. Balanced project deadlines and stringent technical requirements in the design process.
-      - Developed a novel internal stress testing tool written in C#. Leveraging Grafana to visualize real-time performance data effectively.
-      - Developed and maintained various software projects written in C#, Typescript, Python and Java.
+      - Contributed to a Machine Learning project leveraging Natural Language Processing to perform automated entity recognition and correlation.
+      - Designed and proposed a robust software architecture catering to the specific requirements of a key customer, increasing the efficiency of time-critical notifications by 33\%.
+      - Developed a novel internal stress testing tool written in {\large\Csharp}, automating manual testing and reducing deployment time by 50\%. Leveraged Grafana to visualize real-time performance data.
   - position: Software Engineer (Internship)
     company_name: JSI Telecom
     company_url: 'https://www.jsitelecom.com/'
