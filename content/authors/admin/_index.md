@@ -55,7 +55,7 @@ education:
     summary: |
       GPA: 4.0/4.0
 
-      Thesis on Cardiovascular Disease Detection using Self-Supervised Learning. Supervised by Dr. Majid Komeili and Dr. Adrian Chan.
+      Thesis: Toward Robust Automated Cardiovascular Arrhythmia Detection using Self-supervised Learning and 1-Dimensional Vision Transformers. Supervised by Dr. Majid Komeili and Dr. Adrian Chan.
 
       Courses included:
       - Advanced Machine Learning
@@ -71,7 +71,7 @@ education:
     summary: |
       GPA: 4.0/4.0
 
-      Thesis on the Gathering of Mobile Robots in the Presence of Faults. Supervised by Dr. Paola Flocchini.
+      Thesis: Gathering of Mobile Robots in the Presence of Faults. Supervised by Dr. Paola Flocchini.
       
       Courses included:
       - Artificial Intelligence
@@ -106,7 +106,7 @@ work:
 skills:
   - name: Machine Learning
     items:
-      - name: Transformers
+      - name: Transformers / RNN / CNN
         description: ''
         percent: 100
       - name: Natural Language Processing
@@ -124,44 +124,44 @@ skills:
       - name: High Performance Computing
         description: ''
         percent: 100
-  - name: Programming Languages
+  - name: Languages
     items:
-      - name: Python
+      - name: Python <br /> (Expert)
         description: ''
         percent: 100
-      - name: C#
+      - name: C# <br /> (Proficient)
         description: ''
         percent: 100
-      - name: Javascript
+      - name: Javascript <br /> (Proficient)
         description: ''
         percent: 100
-      - name: SQL
+      - name: SQL <br /> (Proficient)
         description: ''
         percent: 100
-      - name: Java
+      - name: Java <br /> (Prior experience)
         description: ''
         percent: 100
-      - name: C / C++
+      - name: C / C++ <br /> (Prior experience)
         description: ''
         percent: 100
-  - name: Software Skills / Other
+  - name: Other
     items:
       - name: PyTorch / NumPy / Pandas
         description: ''
         percent: 100
-      - name: Docker / Kubernetes
+      - name: Docker / <br /> Kubernetes
         description: ''
         percent: 100
-      - name: REST APIs
+      - name: AngularJS / <br /> REST APIs
         description: ''
         percent: 100
-      - name: Cloud Computing
+      - name: Cloud Computing / <br /> Big Data
         description: ''
         percent: 100
-      - name: AngularJS
+      - name: Agile <br /> Methodology 
         description: ''
         percent: 100
-      - name: Azure / Github
+      - name: Azure / <br /> Github
         description: ''
         percent: 100
 

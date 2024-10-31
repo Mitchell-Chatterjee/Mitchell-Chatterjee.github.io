@@ -30,8 +30,8 @@ tags:
 featured: true
 
 links:
-- name: Custom Link
-  url: https://www.techrxiv.org/doi/full/10.36227/techrxiv.172866031.13011158/v1
+# - name: Custom Link
+#   url: https://www.techrxiv.org/doi/full/10.36227/techrxiv.172866031.13011158/v1
 url_pdf: https://www.techrxiv.org/doi/full/10.36227/techrxiv.172866031.13011158/v1
 url_code: 'https://github.com/Mitchell-Chatterjee/Robust-Automated-Cardiovascular-Arrhythmia-Detection'
 # url_dataset: '#'

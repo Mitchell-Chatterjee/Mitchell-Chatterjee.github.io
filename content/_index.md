@@ -4,6 +4,9 @@ title: ""
 date: 2022-10-24
 type: landing
 
+design:
+  # Default section spacing
+  spacing: "6rem"
 
 sections:
   - block: resume-biography-3
@@ -21,7 +24,7 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
+          filename: background_mountains.jpg
           filters:
             brightness: 1.0
           size: cover
@@ -32,11 +35,9 @@ sections:
       title: '📚 Background'
       subtitle: ''
       text: |-
-        I am currently a Master's Student at Carleton University applying recent advancements in Natural Language Processing to Medical data.
+        I recently graduated from Carleton University where my Master's research focused on applying state-of-the-art techniques in Natural Language Processing to Medical data.
 
         I am interested in all opportunities requiring a strong knowledge of Software Engineering and/or Machine Learning.
-
-        My experience pertains to applying a range of Deep Learning methods including, Transformers, CNNs and RNNs to novel problems inlcuding ECG data.
         
         Please reach out with work or collaboration opportunities 😃
     design:
