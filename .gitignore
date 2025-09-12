@@ -1,0 +1,18 @@
+# Hugo build output
+public/
+hugo_stats.json
+.hugo_build.lock
+
+# Hugo cache / resources
+resources/
+.hugo/
+
+# Generated assets (placeholders that shouldn't be in repo)
+assets/media/og-default.svg
+assets/media/og-ecg.svg
+
+# OS/editor files
+.vscode/
+*.swp
+*~
+.DS_Store
