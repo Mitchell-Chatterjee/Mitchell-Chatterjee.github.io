@@ -24,8 +24,8 @@ role: AI / Machine Learning Engineer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Carleton University
-    url: https://carleton.ca/scs/
+  - name: JSI
+    url: https://www.jsitelecom.com/platform/4sight-ai-powered-investigations/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -187,4 +187,4 @@ languages:
 
 ## About Me
 
-Machine Learning Engineer experienced in building real-time, production-grade NLP, retrieval, and agentic systems. Skilled in foundation model development, from data pipelines to LLM orchestration and evaluation. Adept at bridging research and engineering to deliver scalable, high-impact AI solutions.
+Machine Learning Engineer working at the intersection of foundational model research and production ML systems. I build and deploy robust LLM-based retrieval and agentic systems, design evaluation frameworks, and engineer scalable data pipelines and model serving for real-world applications. Open to research collaborations and production-focused roles — reach out for opportunities or partnerships.
