@@ -42,7 +42,7 @@ profiles:
   - icon: academicons/orcid
     url: https://orcid.org/0009-0001-5471-3554
   - icon: link
-    url: https://mitchell-chatterjee.github.io
+    url: https://medium.com/@mitchell.chatterjee
     label: Website
 # Phone number removed at user's request
 
