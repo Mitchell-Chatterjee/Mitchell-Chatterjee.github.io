@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Master's Student
+role: AI / Machine Learning Engineer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -41,65 +41,56 @@ profiles:
     url: https://scholar.google.com/citations?user=-kyItooAAAAJ&hl=en
   - icon: academicons/orcid
     url: https://orcid.org/0009-0001-5471-3554
+  - icon: link
+    url: https://mitchell-chatterjee.github.io
+    label: Website
+  - icon: phone
+    url: 'tel:+16139865373'
+    label: Call
 
 interests:
   - Machine Learning
+  - Retrieval & LLM systems
   - Medical AI
   - Time-Series Forecasting
 
 education:
-  - area: Master's of Computer Science
+  - area: Master of Computer Science (Thesis), Machine Learning
     institution: Carleton University
     date_start: 2022-09-01
     date_end: 2024-09-01
     summary: |
-      GPA: 4.0/4.0
+      GPA: 4.0 / 4.0 (Equivalent to 98.3%)
 
-      Thesis: Toward Robust Automated Cardiovascular Arrhythmia Detection using Self-supervised Learning and 1-Dimensional Vision Transformers. Supervised by Dr. Majid Komeili and Dr. Adrian Chan.
+      Thesis: Toward Robust Automated Cardiovascular Arrhythmia Detection using Self-supervised Learning and 1D Vision Transformers.
 
-      Courses included:
-      - Advanced Machine Learning
-      - Deep and Reinforcement Learning
-      - Natural Language Processing
-    button:
-      text: 'Read Thesis'
-      url: 'https://www.techrxiv.org/doi/full/10.36227/techrxiv.172866031.13011158/v1'
-  - area: BSc Computer Science
+      Courses: Advanced Machine Learning, Natural Language Processing, Deep/Reinforcement Learning
+  - area: Honours Bachelor of Computer Science, AI Specialization
     institution: University of Ottawa
     date_start: 2016-09-01
     date_end: 2020-12-31
     summary: |
-      GPA: 4.0/4.0 (Graduated Summa Cum Laude)
-
-      Thesis: Gathering of Mobile Robots in the Presence of Faults. Supervised by Dr. Paola Flocchini.
-      
-      Courses included:
-      - Artificial Intelligence
-      - Data Science
-      - Data Structures and Algorithms II
+      GPA: 4.0 / 4.0 (Equivalent to 91%) — summa cum laude
 work:
-  - position: Software Engineer
-    company_name: JSI Telecom
+  - position: AI / Machine Learning Engineer
+    company_name: JSI
     company_url: 'https://www.jsitelecom.com/'
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2024-01-01
+    date_end: ~
+    summary: |2-
+      - Led the migration from a proprietary orchestration framework to Agno/LangChain, enabling a modular, LLM-based agentic retrieval and summarization system integrated with MCP; deployed on-premises across customer sites with 100+ GPUs.
+      - Built a real-time RAG pipeline to embed and retrieve billions of multimodal records (audio, text, image), significantly improving search latency and contextual relevance.
+      - Spearheaded development of the company-wide evaluation framework, leveraging DeepEval and A/B testing to rigorously measure KPIs, including relevance, latency, and interaction quality — enabling continuous feature improvement.
+  - position: Junior AI / Machine Learning Engineer
+    company_name: JSI
+    company_url: 'https://www.jsitelecom.com/'
+    company_logo: ''
+    date_start: 2019-05-01
     date_end: 2022-09-01
     summary: |2-
-      Responsibilities include:
-      - Contributed to a Machine Learning project leveraging Natural Language Processing to perform automated entity recognition and correlation.
-      - Designed and proposed a robust software architecture catering to the specific requirements of a key customer, increasing the efficiency of time-critical notifications by 33\%.
-      - Developed a novel internal stress testing tool written in {\large\Csharp}, automating manual testing and reducing deployment time by 50\%. Leveraged Grafana to visualize real-time performance data.
-  - position: Software Engineer (Internship)
-    company_name: JSI Telecom
-    company_url: 'https://www.jsitelecom.com/'
-    company_logo: ''
-    date_start: 2020-05-01
-    date_end: 2020-09-01
-    summary: |
-      Responsibilities include:
-      - Worked within a highly capable agile-based engineering team specializing in Data Analytics. 
-      - Developed a customer-facing notification web app using AngularJS written in Typescript.
-      - Developed and maintained various REST APIs following the .NET Framework written in C#.
+      - Designed and deployed a real-time threat detection system that scanned high-volume multimodal data streams — including audio, text, images, and video — to detect and alert on high-risk activity using anomaly detection and proprietary ML models.
+      - Proposed and implemented a scalable, Kafka-based event-driven architecture for time-sensitive alerting workflows, reducing end-to-end notification latency by 33%.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -124,46 +115,37 @@ skills:
       - name: High Performance Computing
         description: ''
         percent: 100
-  - name: Languages
+  - name: Programming
     items:
-      - name: Python <br /> (Expert)
+      - name: Python (Expert)
         description: ''
         percent: 100
-      - name: C# <br /> (Proficient)
+      - name: C# (Proficient)
         description: ''
-        percent: 100
-      - name: Javascript <br /> (Proficient)
+        percent: 90
+      - name: Javascript (Proficient)
         description: ''
-        percent: 100
-      - name: SQL <br /> (Proficient)
+        percent: 85
+      - name: SQL (Proficient)
         description: ''
-        percent: 100
-      - name: Java <br /> (Prior experience)
+        percent: 80
+      - name: C / C++ / Java (Prior experience)
         description: ''
-        percent: 100
-      - name: C / C++ <br /> (Prior experience)
-        description: ''
-        percent: 100
+        percent: 70
   - name: Other
     items:
       - name: PyTorch / NumPy / Pandas
         description: ''
         percent: 100
-      - name: Docker / <br /> Kubernetes
+      - name: Docker / Kubernetes / HPC
         description: ''
-        percent: 100
-      - name: AngularJS / <br /> REST APIs
+        percent: 90
+      - name: LangChain / Agno / MCP
         description: ''
-        percent: 100
-      - name: Cloud Computing / <br /> Big Data
+        percent: 90
+      - name: Cloud / Big Data / Kafka
         description: ''
-        percent: 100
-      - name: Agile <br /> Methodology 
-        description: ''
-        percent: 100
-      - name: Azure / <br /> Github
-        description: ''
-        percent: 100
+        percent: 85
 
 languages:
   - name: English
@@ -205,8 +187,4 @@ languages:
 
 ## About Me
 
-Diligent Machine Learning Engineer with strong leadership skills and a history of successful collaboration in teams. 
-
-Proficient in developing and maintaining successful business products. Deep knowledge of Machine Learning and Full-Stack software development.
-
-I am passionate about applying Machine Learning to meaningful real-world problems and motivated by the opportunity to collaborate with diverse teams.
+Machine Learning Engineer experienced in building real-time, production-grade NLP, retrieval, and agentic systems. Skilled in foundation model development, from data pipelines to LLM orchestration and evaluation. Adept at bridging research and engineering to deliver scalable, high-impact AI solutions.

@@ -1,0 +1,42 @@
+name: Build Hugo site
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.123.0'
+      - name: Build
+        run: hugo --minify
+      - name: Upload public folder (artifact)
+        uses: actions/upload-artifact@v4
+        with:
+          name: public
+          path: public
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download public artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: public
+          path: public
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          publish_dir: ./public
+          publish_branch: gh-pages
+          # To use a personal access token instead of GITHUB_TOKEN, set `publish_key` here.
+          # secrets: GITHUB_TOKEN is used by default and is sufficient for most repos.

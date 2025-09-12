@@ -13,7 +13,7 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text: ""
+      text: "Machine Learning Engineer experienced in building real-time, production-grade NLP, retrieval, and agentic systems. Skilled in foundation model development, from data pipelines to LLM orchestration and evaluation. Adept at bridging research and engineering to deliver scalable, high-impact AI solutions."
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV

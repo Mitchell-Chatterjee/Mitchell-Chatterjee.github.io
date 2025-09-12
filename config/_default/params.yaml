@@ -14,17 +14,24 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    description: 'Mitchell Chatterjee — Machine Learning Engineer. Builds production-grade NLP, retrieval, and agentic systems; research in automated cardiovascular arrhythmia detection.'
+    twitter: ''
   analytics:
-    google_analytics: ''
+    google_analytics: '' # UA- or G- id (add your id)
     baidu_tongji: ''
-    plausible: ''
+    plausible: '' # plausible.io domain
     fathom: ''
     pirsch: ''
   verification:
     google: ''
     baidu: ''
+  opengraph:
+    # Default OpenGraph image (relative to project root)
+    image: assets/media/og-default.svg
+    twitter_card: summary_large_image
+    # Fallback title/description controlled by page frontmatter where possible
+    default_title: 'Mitchell Chatterjee — Machine Learning Engineer'
+    default_description: 'Machine Learning Engineer building production-grade NLP, retrieval, and agentic systems. Research in automated cardiovascular arrhythmia detection.'
 
 # Site header
 header:
