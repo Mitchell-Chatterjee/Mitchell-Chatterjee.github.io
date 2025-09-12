@@ -35,11 +35,9 @@ sections:
       title: '📚 Background'
       subtitle: ''
       text: |-
-        I recently graduated from Carleton University where my Master's research focused on applying state-of-the-art techniques in Natural Language Processing to Medical data.
+        I'm a Machine Learning Engineer who bridges foundational model research and production ML engineering. My Master's research applied state-of-the-art NLP techniques to medical datasets, and in industry I design and deploy robust LLM-driven retrieval and agent systems, build scalable data pipelines, and implement production model serving and evaluation frameworks.
 
-        I am interested in all opportunities requiring a strong knowledge of Software Engineering and/or Machine Learning.
-        
-        Please reach out with work or collaboration opportunities 😃
+        I enjoy collaboration across research and engineering — if you're working on applied ML, model infrastructure, or evaluation at scale, let's talk.
     design:
       columns: '1'
   # - block: collection
