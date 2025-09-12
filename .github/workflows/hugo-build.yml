@@ -13,7 +13,7 @@ permissions:
   id-token: write
 
 jobs:
-  build:
+  build_and_deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -25,21 +25,6 @@ jobs:
           extended: true
       - name: Build
         run: hugo --minify
-      - name: Upload public folder (artifact)
-        uses: actions/upload-artifact@v4
-        with:
-          name: public
-          path: public
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Download public artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: public
-          path: public
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
