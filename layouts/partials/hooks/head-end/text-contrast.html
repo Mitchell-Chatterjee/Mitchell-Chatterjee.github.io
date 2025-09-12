@@ -1,22 +1,36 @@
 <style>
-/* Subtle hero section text contrast - only target hero */
-.resume-biography-3 * {
+/* Target the first section (hero) with multiple approaches */
+main > section:first-of-type * {
   color: white !important;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8) !important;
   font-weight: 600 !important;
 }
 
-/* Slightly bolder for headings in hero */
-.resume-biography-3 h1,
-.resume-biography-3 h2,
-.resume-biography-3 h3 {
-  font-weight: 700 !important;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9) !important;
+/* Target by background image */
+section[style*="background-image"] * {
+  color: white !important;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8) !important;
+  font-weight: 600 !important;
 }
 
-/* Normal weight for links and buttons */
-.resume-biography-3 a,
-.resume-biography-3 .btn {
+/* Target the light-theme class we set */
+.light-theme * {
+  color: white !important;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8) !important;
   font-weight: 600 !important;
+}
+
+/* Headings in first section */
+main > section:first-of-type h1,
+main > section:first-of-type h2,
+main > section:first-of-type h3,
+section[style*="background-image"] h1,
+section[style*="background-image"] h2,
+section[style*="background-image"] h3,
+.light-theme h1,
+.light-theme h2,
+.light-theme h3 {
+  font-weight: 700 !important;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9) !important;
 }
 </style>
