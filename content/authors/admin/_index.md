@@ -44,9 +44,9 @@ profiles:
   - icon: link
     url: https://mitchell-chatterjee.github.io
     label: Website
-  - icon: phone
-    url: 'tel:+16139865373'
-    label: Call
+# Phone number removed at user's request
+
+avatar: "assets/media/avatar.jpg"
 
 interests:
   - Machine Learning
