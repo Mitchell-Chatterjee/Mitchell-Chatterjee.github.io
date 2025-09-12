@@ -1,5 +1,4 @@
-# Hugo build output
-public/
+# Hugo build output (keep caches ignored but allow tracking public/)
 hugo_stats.json
 .hugo_build.lock
 
