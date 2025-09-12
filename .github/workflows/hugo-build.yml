@@ -13,24 +13,35 @@ permissions:
   id-token: write
 
 jobs:
-  build_and_deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: '0.135.0'
           extended: true
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v3
       - name: Build
-        run: hugo --minify
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        env:
+          HUGO_ENVIRONMENT: production
+        run: |
+          hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v1
         with:
-          publish_dir: ./public
-          publish_branch: gh-pages
-          # Use the workflow's GITHUB_TOKEN (requires 'pages: write' permission above)
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          # To use a personal access token instead of GITHUB_TOKEN, set `publish_key` here.
-          # secrets: GITHUB_TOKEN is used by default and is sufficient for most repos.
+          path: ./public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v1

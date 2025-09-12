@@ -19,12 +19,12 @@ sections:
         text: Download CV
         url: uploads/resume.pdf
     design:
-      css_class: dark
+      css_class: light-theme hero-background
       background:
-        color: black
+        color: white
         image:
           # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
+          filename: light-mountains.svg
           filters:
             brightness: 1.0
           size: cover

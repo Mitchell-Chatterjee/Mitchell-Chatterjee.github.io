@@ -1,0 +1,16 @@
+<svg id="visual" viewBox="0 0 960 540" width="960" height="540" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+  <!-- Light gradient background -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f9ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e0f2fe;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#skyGradient)"/>
+  
+  <!-- Mountain layers - progressively lighter -->
+  <path d="M0 320L80 280L160 300L240 250L320 270L400 240L480 260L560 220L640 240L720 200L800 220L880 180L960 200L960 540L0 540Z" fill="#d1d5db" opacity="0.4"></path>
+  <path d="M0 360L90 320L180 340L270 300L360 320L450 280L540 300L630 260L720 280L810 240L900 260L960 230L960 540L0 540Z" fill="#9ca3af" opacity="0.5"></path>
+  <path d="M0 400L70 370L140 380L210 350L280 370L350 340L420 360L490 320L560 340L630 300L700 320L770 280L840 300L910 270L960 290L960 540L0 540Z" fill="#6b7280" opacity="0.6"></path>
+  <path d="M0 440L60 410L120 420L180 390L240 410L300 380L360 400L420 360L480 380L540 340L600 360L660 320L720 340L780 300L840 320L900 290L960 310L960 540L0 540Z" fill="#4b5563" opacity="0.7"></path>
+</svg>
