@@ -6,6 +6,12 @@ on:
   pull_request:
     branches: [ main ]
 
+# Required permissions so the deploy step can push to GitHub Pages using the built-in token.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -39,5 +45,7 @@ jobs:
         with:
           publish_dir: ./public
           publish_branch: gh-pages
+          # Use the workflow's GITHUB_TOKEN (requires 'pages: write' permission above)
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           # To use a personal access token instead of GITHUB_TOKEN, set `publish_key` here.
           # secrets: GITHUB_TOKEN is used by default and is sufficient for most repos.
