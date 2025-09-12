@@ -1,36 +1,32 @@
 <style>
-/* Target the first section (hero) with multiple approaches */
-main > section:first-of-type * {
+/* Only target hero section - be very specific */
+section.light-theme * {
   color: white !important;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8) !important;
   font-weight: 600 !important;
 }
 
-/* Target by background image */
-section[style*="background-image"] * {
+section.hero-background * {
   color: white !important;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8) !important;
   font-weight: 600 !important;
 }
 
-/* Target the light-theme class we set */
-.light-theme * {
-  color: white !important;
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8) !important;
-  font-weight: 600 !important;
-}
-
-/* Headings in first section */
-main > section:first-of-type h1,
-main > section:first-of-type h2,
-main > section:first-of-type h3,
-section[style*="background-image"] h1,
-section[style*="background-image"] h2,
-section[style*="background-image"] h3,
-.light-theme h1,
-.light-theme h2,
-.light-theme h3 {
+/* Headings only in the hero section */
+section.light-theme h1,
+section.light-theme h2,
+section.light-theme h3,
+section.hero-background h1,
+section.hero-background h2,
+section.hero-background h3 {
   font-weight: 700 !important;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9) !important;
+}
+
+/* Reset for other sections - make sure experience page is not affected */
+section:not(.light-theme):not(.hero-background) * {
+  font-weight: inherit !important;
+  color: inherit !important;
+  text-shadow: none !important;
 }
 </style>
