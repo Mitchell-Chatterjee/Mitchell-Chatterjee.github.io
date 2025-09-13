@@ -1,7 +1,7 @@
 ---
 title: Automated Cardiovascular Arrhythmia Detection
   - Automated ECG
-date: 2024-09-01
+date: 2025-09-01
 external_link: https://github.com/Mitchell-Chatterjee/Robust-Automated-Cardiovascular-Arrhythmia-Detection
 tags:
   - Automated ECG
