@@ -28,3 +28,5 @@ Cardiovascular diseases are the primary cause of death globally. With the preval
   doi     = {10.36227/techrxiv.172866031.13011158/v1}
 }
 ```
+
+<p class="text-xs text-neutral-500">Cover image: "ECG and CVP Curves" by Stefan Bellini, public domain (CC0) via <a href="https://commons.wikimedia.org/w/index.php?curid=40154875">Wikimedia Commons</a>.</p>
