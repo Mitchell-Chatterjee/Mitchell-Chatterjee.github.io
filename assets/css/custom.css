@@ -42,23 +42,14 @@
     text-align: left;
   }
 
-  .home-intro-profile,
-  .home-intro-overview {
-    flex: 1 1 0;
-  }
-
   .home-intro-profile {
+    flex: 0 0 auto;
+    max-width: 26rem;
     text-align: center;
   }
 
   .home-intro-overview {
+    flex: 1 1 0;
     max-width: none;
   }
-}
-
-.home-intro-photo {
-  position: relative;
-  z-index: 10;
-  display: block;
-  margin: 0 auto 1.5rem;
 }
