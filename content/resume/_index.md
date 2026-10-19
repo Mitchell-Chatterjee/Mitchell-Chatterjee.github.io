@@ -43,7 +43,7 @@ Machine Learning Engineer experienced in building real-time, production-grade NL
 
 ## Contact
 
-- Website: https://mitchell-chatterjee.github.io
+- Website: https://mitchellchatterjee.com
 - Email: mitchell.chatterjee@gmail.com
 - GitHub: https://github.com/Mitchell-Chatterjee
 - LinkedIn: https://www.linkedin.com/in/mitchell-chatterjee-452987141/
