@@ -1,0 +1,7 @@
+{{/* Site icons. Bump $v after changing the icon files so browsers drop cached copies. */}}
+{{ $v := "2" }}
+<link rel="icon" href="{{ printf "favicon.ico?v=%s" $v | relURL }}" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ printf "favicon-32x32.png?v=%s" $v | relURL }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ printf "favicon-16x16.png?v=%s" $v | relURL }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ printf "apple-touch-icon.png?v=%s" $v | relURL }}">
+<link rel="manifest" href="{{ printf "site.webmanifest?v=%s" $v | relURL }}">
