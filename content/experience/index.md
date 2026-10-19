@@ -8,7 +8,11 @@ showHero: false
 
 {{< timeline >}}
 
-{{< timelineItem icon="code" header="AI / Machine Learning Engineer" badge="Jan 2024 – Present" subheader="JSI" md="true" >}}
+{{< timelineItem icon="code" header="Machine Learning Engineer" badge="Mar 2026 – Present" subheader="Layer 6 AI · TD Bank" md="true" >}}
+- On the agentic AI team, built the automated evaluation framework used to evaluate agentic conversations across the entire bank.
+{{< /timelineItem >}}
+
+{{< timelineItem icon="code" header="AI / Machine Learning Engineer" badge="Jan 2024 – Feb 2026" subheader="JSI" md="true" >}}
 - Led the migration from a proprietary orchestration framework to Agno/LangChain, enabling a modular, LLM-based agentic retrieval and summarization system integrated with MCP; deployed on-premises across customer sites with 100+ GPUs.
 - Built a real-time RAG pipeline to embed and retrieve billions of multimodal records (audio, text, image), significantly improving search latency and contextual relevance.
 - Spearheaded the company-wide evaluation framework, using DeepEval and A/B testing to measure relevance, latency, and interaction quality.
