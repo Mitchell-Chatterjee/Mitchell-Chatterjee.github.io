@@ -7,6 +7,8 @@ enableCodeCopy = true
 
 mainSections = ["projects"]
 defaultSocialImage = "img/avatar.jpg"
+defaultBackgroundImage = "img/mountains.jpg"
+backgroundCanvas = true # mountain photo behind every page
 
 [header]
   layout = "fixed-fill-blur"
