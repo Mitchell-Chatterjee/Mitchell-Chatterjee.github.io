@@ -16,3 +16,6 @@ assets/media/og-ecg.svg
 *.swp
 *~
 .DS_Store
+
+# Local notes
+TODO.md
