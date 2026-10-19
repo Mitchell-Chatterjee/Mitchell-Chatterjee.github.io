@@ -22,8 +22,8 @@ backgroundCanvas = true # mountain photo behind every page
 
 [homepage]
   layout = "background"
-  homepageImage = "img/mountains.jpg"
-  layoutBackgroundBlur = true
+  # No homepageImage: the site-wide background canvas shows instead, same as other pages
+  layoutBackgroundBlur = false
   showRecent = true
   showRecentItems = 3
   showMoreLink = true
