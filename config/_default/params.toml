@@ -19,7 +19,9 @@ defaultSocialImage = "img/avatar.jpg"
   showScrollToTop = true
 
 [homepage]
-  layout = "profile"
+  layout = "background"
+  homepageImage = "img/mountains.jpg"
+  layoutBackgroundBlur = true
   showRecent = true
   showRecentItems = 3
   showMoreLink = true
