@@ -2,11 +2,12 @@
 title: "Mitchell Chatterjee"
 description: "Machine Learning Engineer building agentic AI systems and the frameworks that evaluate them at scale."
 buttons:
-  - text: "View projects"
-    href: "/projects/"
   - text: "Download CV"
     href: "/uploads/resume.pdf"
     target: "_blank"
+  - text: "View experience"
+    href: "/experience/"
+    style: "outline"
 featured:
   - /projects/iris-ai-assistant
   - /publications/patchecg
