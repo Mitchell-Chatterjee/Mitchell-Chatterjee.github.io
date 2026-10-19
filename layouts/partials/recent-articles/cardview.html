@@ -1,0 +1,20 @@
+{{/* Homepage cards: use the hand-picked `featured` list from content/_index.md when set,
+  otherwise fall back to the most recent pages in mainSections. */}}
+{{ $pages := slice }}
+{{ with .Params.featured }}
+  {{ range . }}
+    {{ with site.GetPage . }}
+      {{ $pages = $pages | append . }}
+    {{ else }}
+      {{ warnf "Homepage featured page not found: %s" . }}
+    {{ end }}
+  {{ end }}
+{{ else }}
+  {{ $pages = first .Site.Params.homepage.showRecentItems (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+{{ end }}
+
+<section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+  {{ range $pages }}
+    {{ partial "article-link/card.html" . }}
+  {{ end }}
+</section>

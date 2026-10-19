@@ -1,0 +1,5 @@
+<script>
+  // Dark mode only: ignore any light-mode preference saved by the theme toggle.
+  try { localStorage.removeItem("appearance"); } catch (e) {}
+  document.documentElement.classList.add("dark");
+</script>
