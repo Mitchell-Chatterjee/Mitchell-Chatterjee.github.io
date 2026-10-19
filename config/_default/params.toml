@@ -1,6 +1,6 @@
 colorScheme = "ocean"
-defaultAppearance = "light"
-autoSwitchAppearance = true
+defaultAppearance = "dark"
+autoSwitchAppearance = false
 
 enableSearch = true
 enableCodeCopy = true
@@ -15,7 +15,7 @@ defaultSocialImage = "img/avatar.jpg"
   showMenu = false
   showCopyright = true
   showThemeAttribution = false
-  showAppearanceSwitcher = true
+  showAppearanceSwitcher = false
   showScrollToTop = true
 
 [homepage]

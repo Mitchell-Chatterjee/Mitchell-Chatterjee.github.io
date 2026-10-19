@@ -1,6 +1,6 @@
 ---
 title: "PatchECG: Self-Supervised ECG Arrhythmia Detection"
-summary: "Master's thesis. A 1D transformer pre-trained on 8.2M unlabelled ECGs with Masked Patch Modelling; state-of-the-art on PTB-XL at 1/5 the compute."
+summary: "Master's thesis, published in Scientific Reports (2026). A 1D transformer pre-trained on 8.2M unlabelled ECGs with Masked Patch Modelling; state-of-the-art on PTB-XL at 1/5 the compute."
 date: 2024-09-01
 weight: 3
 tags: ["Self-supervised learning", "Transformers", "Medical AI", "Time-series"]
