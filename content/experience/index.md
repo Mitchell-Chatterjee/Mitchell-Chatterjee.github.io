@@ -9,7 +9,8 @@ showHero: false
 {{< timeline >}}
 
 {{< timelineItem icon="code" header="Machine Learning Engineer" badge="Mar 2026 – Present" subheader="Layer 6 AI · TD Bank" md="true" >}}
-- On the agentic AI team, built the automated evaluation framework used to evaluate agentic conversations across the entire bank.
+- Built the automated evaluation framework on the Agentic AI team, now used to evaluate agentic conversations across the entire bank.
+- Cut deployment time for new automated evaluation solutions from roughly six months to a few weeks by standardizing the evaluation pipeline and making evaluators configurable.
 {{< /timelineItem >}}
 
 {{< timelineItem icon="code" header="AI / Machine Learning Engineer" badge="Jan 2024 – Feb 2026" subheader="JSI" md="true" >}}
