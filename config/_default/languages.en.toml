@@ -9,7 +9,7 @@ title = "Mitchell Chatterjee"
   isoCode = "en"
   rtl = false
   dateFormat = "January 2006"
-  description = "Mitchell Chatterjee — Machine Learning Engineer building production retrieval, agentic, and NLP systems. Research in self-supervised learning for ECG arrhythmia detection."
+  description = "Mitchell Chatterjee — Machine Learning Engineer building agentic AI systems and the frameworks that evaluate them at scale. Research in self-supervised learning for ECG arrhythmia detection."
   copyright = "© { year } Mitchell Chatterjee"
 
 [params.author]
