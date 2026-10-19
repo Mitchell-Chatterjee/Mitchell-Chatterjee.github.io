@@ -9,8 +9,8 @@ buttons:
     target: "_blank"
 featured:
   - /projects/iris-ai-assistant
-  - /publications/perioperative-ecg-ai
   - /publications/patchecg
+  - /publications/perioperative-ecg-ai
 ---
 
 I build production ML systems: LLM-based retrieval and agents, the evaluation frameworks that keep them honest, and the data pipelines underneath. I'm currently a Machine Learning Engineer on the agentic team at [Layer 6 AI](https://layer6.ai/) (TD Bank), where I built the automated evaluation framework used to evaluate agentic conversations across the bank. Before that, at [JSI](https://www.jsitelecom.com/), I built on-premises LLM retrieval and agent systems deployed across customer sites with 100+ GPUs.
