@@ -13,7 +13,7 @@ showHero: false
 - Cut deployment time for new automated evaluation solutions from roughly six months to a few weeks by standardizing the evaluation pipeline and making evaluators configurable.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="code" header="AI / Machine Learning Engineer" badge="Jan 2024 – Feb 2026" subheader="JSI" md="true" >}}
+{{< timelineItem icon="code" header="AI / Machine Learning Engineer" badge="Dec 2024 – Feb 2026" subheader="JSI" md="true" >}}
 - Led the migration from a proprietary orchestration framework to Agno/LangChain, enabling a modular, LLM-based agentic retrieval and summarization system integrated with MCP; deployed on-premises across customer sites with 100+ GPUs.
 - Built a real-time RAG pipeline to embed and retrieve billions of multimodal records (audio, text, image), significantly improving search latency and contextual relevance.
 - Spearheaded the company-wide evaluation framework, using DeepEval and A/B testing to measure relevance, latency, and interaction quality.
