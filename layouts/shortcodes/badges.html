@@ -1,0 +1,6 @@
+{{/* Inline, wrapping row of badges: {{< badges "Python, PyTorch, Kafka" >}} */}}
+<div class="not-prose flex flex-wrap gap-2 my-3">
+  {{- range split (.Get 0) "," }}
+    {{ partial "badge.html" (strings.TrimSpace .) }}
+  {{- end }}
+</div>

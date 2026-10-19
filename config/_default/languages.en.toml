@@ -1,0 +1,26 @@
+disabled = false
+locale = "en"
+label = "English"
+weight = 1
+title = "Mitchell Chatterjee"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "January 2006"
+  description = "Mitchell Chatterjee — Machine Learning Engineer building production retrieval, agentic, and NLP systems. Research in self-supervised learning for ECG arrhythmia detection."
+  copyright = "© { year } Mitchell Chatterjee"
+
+[params.author]
+  name = "Mitchell Chatterjee"
+  image = "img/avatar.jpg"
+  headline = "Machine Learning Engineer · Retrieval, agents & evaluation"
+  links = [
+    { email = "mailto:mitchell.chatterjee@gmail.com" },
+    { github = "https://github.com/Mitchell-Chatterjee" },
+    { linkedin = "https://www.linkedin.com/in/mitchell-chatterjee-452987141/" },
+    { google-scholar = "https://scholar.google.com/citations?user=-kyItooAAAAJ&hl=en" },
+    { orcid = "https://orcid.org/0009-0001-5471-3554" },
+    { medium = "https://medium.com/@mitchell.chatterjee" },
+  ]

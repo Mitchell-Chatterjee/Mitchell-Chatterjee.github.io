@@ -1,0 +1,26 @@
+[[main]]
+  name = "Projects"
+  pageRef = "projects"
+  weight = 10
+
+[[main]]
+  name = "Experience"
+  pageRef = "experience"
+  weight = 20
+
+[[main]]
+  name = "Publications"
+  pageRef = "publications"
+  weight = 30
+
+[[main]]
+  name = "CV"
+  url = "/uploads/resume.pdf"
+  weight = 40
+
+[[main]]
+  identifier = "search"
+  weight = 99
+  [main.params]
+    action = "search"
+    icon = "search"

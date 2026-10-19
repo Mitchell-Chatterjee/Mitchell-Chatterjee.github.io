@@ -1,0 +1,22 @@
+baseURL = "https://mitchellchatterjee.com/"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+summaryLength = 0
+enableEmoji = true
+
+[pagination]
+  pagerSize = 100
+
+[imaging]
+  anchor = "Center"
+
+[taxonomies]
+  tag = "tags"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5

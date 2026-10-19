@@ -1,0 +1,58 @@
+colorScheme = "ocean"
+defaultAppearance = "light"
+autoSwitchAppearance = true
+
+enableSearch = true
+enableCodeCopy = true
+
+mainSections = ["projects"]
+defaultSocialImage = "img/avatar.jpg"
+
+[header]
+  layout = "fixed-fill-blur"
+
+[footer]
+  showMenu = false
+  showCopyright = true
+  showThemeAttribution = false
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+[homepage]
+  layout = "profile"
+  showRecent = true
+  showRecentItems = 3
+  showMoreLink = true
+  showMoreLinkDest = "/projects/"
+  cardView = true
+  cardViewScreenWidth = false
+
+[article]
+  showDate = false
+  showAuthor = false
+  showHero = true
+  heroStyle = "big"
+  showBreadcrumbs = false
+  showHeadingAnchors = true
+  showPagination = false
+  showReadingTime = false
+  showWordCount = false
+  showTableOfContents = false
+  showTaxonomies = true
+  showRelatedContent = false
+
+[list]
+  showHero = false
+  showSummary = true
+  showCards = true
+  cardView = true
+  groupByYear = false
+  orderByWeight = true
+
+[taxonomy]
+  showTermCount = true
+
+[term]
+  showTableOfContents = false
+  groupByYear = false
+  cardView = true

@@ -1,7 +1,5 @@
-module github.com/HugoBlox/hugo-blox-builder/starters/academic-cv
+module github.com/Mitchell-Chatterjee/Mitchell-Chatterjee.github.io
 
-go 1.19
+go 1.21
 
-require (
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind v0.2.1-0.20241012174104-661cadc17327
-)
+require github.com/nunocoracao/blowfish/v3 v3.9.0 // indirect
