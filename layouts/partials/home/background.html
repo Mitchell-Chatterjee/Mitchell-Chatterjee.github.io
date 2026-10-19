@@ -112,12 +112,8 @@
             {{ with .Params.buttons }}
               <div class="home-intro-buttons not-prose">
                 {{ range . }}
-                  {{ $class := "!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700" }}
-                  {{ if eq .style "outline" }}
-                    {{ $class = "home-intro-button-outline !rounded-md border border-primary-500 bg-transparent px-4 py-2 !no-underline text-primary-700 dark:text-primary-200 hover:border-transparent" }}
-                  {{ end }}
                   <a
-                    class="{{ $class }}"
+                    class="home-intro-button !rounded-md px-4 py-2 !no-underline"
                     href="{{ .href | relURL }}"
                     {{ with .target }}target="{{ . }}"{{ end }}
                     role="button">

@@ -54,7 +54,14 @@
   }
 }
 
-/* Secondary (outlined) homepage button */
-.home-intro-button-outline:hover {
-  background-color: rgba(var(--color-primary-800), 0.5);
+/* Homepage buttons: softer, slightly translucent blue */
+.home-intro-button {
+  color: rgb(var(--color-neutral-50)) !important;
+  background-color: rgba(var(--color-primary-700), 0.55);
+  border: 1px solid rgba(var(--color-primary-400), 0.35);
+  transition: background-color 0.15s ease;
+}
+
+.home-intro-button:hover {
+  background-color: rgba(var(--color-primary-600), 0.7);
 }

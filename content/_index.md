@@ -7,7 +7,6 @@ buttons:
     target: "_blank"
   - text: "View experience"
     href: "/experience/"
-    style: "outline"
 featured:
   - /projects/iris-ai-assistant
   - /publications/patchecg
