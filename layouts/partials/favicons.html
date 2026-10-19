@@ -1,6 +1,8 @@
 {{/* Site icons. Bump $v after changing the icon files so browsers drop cached copies. */}}
-{{ $v := "2" }}
+{{ $v := "3" }}
 <link rel="icon" href="{{ printf "favicon.ico?v=%s" $v | relURL }}" sizes="any">
+{{/* Google Search uses a square icon whose size is a multiple of 48px */}}
+<link rel="icon" type="image/png" sizes="192x192" href="{{ printf "android-chrome-192x192.png?v=%s" $v | relURL }}">
 <link rel="icon" type="image/png" sizes="32x32" href="{{ printf "favicon-32x32.png?v=%s" $v | relURL }}">
 <link rel="icon" type="image/png" sizes="16x16" href="{{ printf "favicon-16x16.png?v=%s" $v | relURL }}">
 <link rel="apple-touch-icon" sizes="180x180" href="{{ printf "apple-touch-icon.png?v=%s" $v | relURL }}">
