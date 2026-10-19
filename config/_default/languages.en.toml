@@ -15,7 +15,7 @@ title = "Mitchell Chatterjee"
 [params.author]
   name = "Mitchell Chatterjee"
   image = "img/avatar.jpg"
-  headline = "Machine Learning Engineer · Retrieval, agents & evaluation"
+  headline = "Machine Learning Engineer"
   links = [
     { email = "mailto:mitchell.chatterjee@gmail.com" },
     { github = "https://github.com/Mitchell-Chatterjee" },

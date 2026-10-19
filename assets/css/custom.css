@@ -45,16 +45,7 @@
   .home-intro-profile {
     flex: 0 0 auto;
     max-width: 26rem;
-    align-items: flex-start;
-  }
-
-  .home-intro-links {
-    margin-left: -0.25rem;
-  }
-
-  .home-intro-links,
-  .home-intro-buttons {
-    justify-content: flex-start;
+    text-align: center;
   }
 
   .home-intro-overview {
